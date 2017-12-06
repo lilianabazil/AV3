@@ -1,0 +1,127 @@
+/*!
+ * Bootstrap v4.0.0-beta.2 (https://getbootstrap.com)
+ * Copyright 2011-2017 The Bootstrap Authors
+ * Copyright 2011-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "print";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "utilities";
+
+
+.hero {
+	background-color: #E5E0D5;
+	clip-path: ellipse(108% 50% at 50% 46%);
+	background-image: url(fundo-home.png);
+	background-repeat: no-repeat;
+	background-position: 15% top;
+	margin-bottom: -30px;
+
+	&__content {
+		margin-top: 160px;
+		margin-bottom: 160px;
+	}
+}
+
+.faq {
+	background-image: url(fundo-faq.png);
+	background-position: 15%;
+	
+	&__title {
+		padding-top: 85px;
+		padding-bottom: 270px;
+	}
+	
+	&__content {
+		margin-top:160px;
+		margin-bottom:160px;
+	}
+}
+
+.testemunhos {
+	background-color: #F8CE40;
+	background-image: url(fundo-testemunho.png);
+	background-size: 90%;
+    background-repeat: no-repeat;
+    padding-top: 65px;
+    padding-bottom: 160px;
+
+    &__title {
+    	padding-top: 80px;
+    	padding-bottom: 80px;
+    }
+}
+
+.time {
+	background-image: url(fundo-time.png);
+	background-size: 80%;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.contato {
+	background-image: url(fundo-contato.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	&__button {
+		margin-top: 21px;
+    	margin-bottom: 21px;
+	}
+}
+
+.titulo-espacado {
+	font-size: 18px;
+	font-weight: 100;
+	letter-spacing: 30px;
+	text-transform: uppercase;
+	display: block;
+}
+
+.titulo-italico {
+	color: #501640;
+	font-size: 64px;
+	font-style: italic;
+	display: block;
+	font-weight: 400;
+	
+}
+
+.botao {
+	margin-top: 90px
+}
